@@ -66,6 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\Pe-icon-7-stroke.eot" />
+    <Content Include="fonts\Pe-icon-7-stroke.ttf" />
+    <Content Include="fonts\Pe-icon-7-stroke.woff" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,9 +83,45 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\others\animate.css" />
+    <Content Include="css\others\font-awesome.min.css" />
+    <Content Include="css\others\magnific-popup.css" />
+    <Content Include="css\others\owl.carousel.min.css" />
+    <Content Include="css\others\pe-icon-7-stroke.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="home.aspx" />
+    <Content Include="img\bg-img\boban-1.jpg" />
+    <Content Include="img\bg-img\boban-2.jpg" />
+    <Content Include="img\bg-img\boban-3.jpg" />
+    <Content Include="img\bg-img\boban-4.jpg" />
+    <Content Include="img\bg-img\boban-about-1.jpg" />
+    <Content Include="img\bg-img\boban-about-2.jpg" />
+    <Content Include="img\icons\email.svg" />
+    <Content Include="img\icons\left-arrow.svg" />
+    <Content Include="img\icons\right-arrow.svg" />
+    <Content Include="img\logo_mali.png" />
+    <Content Include="img\menu-img\dish-1.png" />
+    <Content Include="img\menu-img\dish-2.png" />
+    <Content Include="img\menu-img\dish-3.png" />
+    <Content Include="js\active.js" />
+    <Content Include="js\bootstrap\bootstrap.min.js" />
+    <Content Include="js\bootstrap\popper.min.js" />
+    <Content Include="js\jquery\jquery-2.2.4.min.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
