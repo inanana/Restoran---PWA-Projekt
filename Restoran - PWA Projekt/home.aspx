@@ -21,7 +21,7 @@
             <div class="row h-100">
                 <div class="col-12 h-100">
                     <nav class="h-100 navbar navbar-expand-lg align-items-center">
-                        <a class="navbar-brand" href="index.html"><img src="img/logo_mali.png" /></a>
+                        <a class="navbar-brand" href="home.aspx"><img src="img/logo_mali.png" /></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bobanNav" aria-controls="bobanNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
                         <div class="collapse navbar-collapse" id="bobanNav">
                             <ul class="navbar-nav ml-auto" id="bobanMenu">
@@ -37,7 +37,7 @@
                                  <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jelovnici</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#jelovnik.aspx">Jelovnik</a>
+                                        <a class="dropdown-item" href="jelovnik.aspx">Jelovnik</a>
                                         <a class="dropdown-item" href="djecji.aspx">Dječji menu</a>
                                         <a class="dropdown-item" href="slastice.aspx">Slastice</a>
                                     </div>
