@@ -20,17 +20,17 @@
                     <span class="heading">PRIJAVITE SE:</span>
                     <div class="form-group">
                         <label class="control-label" for="exampleInputName2">Ime</label>
-                       <%-- <asp:TextBox ID="tbxLogin" class="form-control" runat="server"></asp:TextBox>--%>
-                        <input required="" name="login[username]" type="email" class="form-control" id="exampleInputEmail1">
+                        <asp:TextBox ID="tbxLogin" class="form-control" runat="server"></asp:TextBox>
+                        <%--<input required="" name="login[username]" type="email" class="form-control" id="exampleInputEmail1">--%>
                     </div>
                     <div class="form-group">
                         <label class="control-label" for="exampleInputName2">Lozinka</label>
-                       <%-- <asp:TextBox ID="tbxPassword" runat="server" type="password" class="form-control"></asp:TextBox>--%>
-                        <input required="" name="login[password]" type="password" class="form-control">
+                        <asp:TextBox ID="tbxPassword" runat="server" type="password" class="form-control"></asp:TextBox>
+<%--                        <input required="" name="login[password]" type="password" class="form-control">--%>
                     </div>
                     <div class="form-group">
-                      <%--  <asp:Button ID="Button1" class="btn btn-default" runat="server" Text="Login" OnClick="Button1_Click" />--%>
-                        <button type="submit" class="btn btn-default">Login</button>
+                        <asp:Button ID="Button1" class="btn btn-default" runat="server" Text="Login" OnClick="Button1_Click" />
+<%--                        <button type="submit" class="btn btn-default">Login</button>--%>
                     </div>
                    <%-- <div class="form-group">
                         <a href="#" class="signup">Sign up</a>
