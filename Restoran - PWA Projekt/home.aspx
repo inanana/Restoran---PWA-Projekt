@@ -28,32 +28,26 @@
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#home">Početna <span class="sr-only">(current)</span></a>
                                 </li>
-<%--                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Padajući</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">DD-test1</a>
-                                        <a class="dropdown-item" href="#">DD-test2</a>
-                                        <a class="dropdown-item" href="#">DD-test3</a>
-                                        <a class="dropdown-item" href="#">DD-test4</a>
-                                    </div>
-                                </li>--%>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#o-nama">O nama</a>
                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#o-nama">Galerija</a>
-                                </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#dnevna-ponuda">Dnevna ponuda</a>
+                                    <a class="nav-link" href="dnevna-ponuda.aspx">Dnevna ponuda</a>
                                 </li>
-                                <li class="nav-item">
+                                 <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jelovnici</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#jelovnik.aspx">Jelovnik</a>
+                                        <a class="dropdown-item" href="djecji.aspx">Dječji menu</a>
+                                        <a class="dropdown-item" href="slastice.aspx">Slastice</a>
+                                    </div>
+                                </li>
+                              <%--  <li class="nav-item">
                                     <a class="nav-link" href="#jelovnik">Jelovnik</a>
-                                </li>
+                                </li>--%>
+
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#vinska-karta">Vinska karta</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                                    <a class="nav-link" href="kontakt.aspx">Kontakt</a>
                                 </li>
                             </ul>
                         </div>
@@ -116,7 +110,7 @@
     <!-- Hero-->
 
     <!--About-->
-    <section class="boban-about-us section-padding-150" id="about">
+    <section class="boban-about-us section-padding-150" id="o-nama">
         <div class="container">
 
             <div class="about-us-second">
@@ -205,30 +199,6 @@
     </section>
     <!--Menu-->
 
-
-    <!-- PRESS - PROVJERI SA IVOM!!!! -->
-<%--    <section class="boban-awards" id="awards">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-2">
-                    <div class="section-heading">
-                        <h2>Nagrade</h2>
-                    </div>
-                </div>
-                <div class="col-12 col-md-9 ml-md-auto">
-                    <div class="boban-awards-a d-sm-flex justify-content-between">
-                        <img src="img/awards-img/a-1.png" alt="">
-                        <img src="img/awards-img/a-2.png" alt="">
-                        <img src="img/awards-img/a-3.png" alt="">
-                        <img src="img/awards-img/a-4.png" alt="">
-                        <img src="img/awards-img/a-5.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--%>
-    <!-- PRESS -->
-
     <!--Contact-->
     <section class="boban-reservation d-md-flex align-items-center" id="reservation">
         <div class="reservation-form-area d-flex justify-content-end">
@@ -245,13 +215,13 @@
                             <input type="time" class="form-control">
                         </div>
                         <div class="col-12 col-lg-6">
-                            <input type="text" class="form-control" placeholder="Select Persons">
+                            <input type="text" class="form-control" placeholder="Broj osoba">
                         </div>
                         <div class="col-12 col-lg-6">
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <input type="text" class="form-control" placeholder="Prezime">
                         </div>
                         <div class="col-12">
-                            <textarea name="reservation-message" class="form-control" id="reservationMessage" cols="30" rows="10" placeholder="Your Message"></textarea>
+                            <textarea name="reservation-message" class="form-control" id="reservationMessage" cols="30" rows="10" placeholder="Upit"></textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn boban-btn"> Kontaktirajte nas!</button>
