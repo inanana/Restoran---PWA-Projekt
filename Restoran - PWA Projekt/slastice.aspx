@@ -1,13 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="jelovnik.aspx.cs" Inherits="Restoran___PWA_Projekt.jelovnik" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="slastice.aspx.cs" Inherits="Restoran___PWA_Projekt.slastice" %>
 
-<%--<!DOCTYPE html>--%>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Restoran Boban - Jelovnik</title>
+    <title>Restoran Boban - Slastice</title>
 
     <link href="style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
@@ -65,7 +65,7 @@
                          <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">                               
                                 <div class="dish-description menu-title col-md-10">
-                                    <h3>JELOVNIK</h3>
+                                    <h3>SLASTICE</h3>
                                 </div>
                             </div>
                         </div>
@@ -73,66 +73,60 @@
                         <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Domaća pašteta od pilećih jetrica</h3>
-                                    <p>(Džem od smokve i naranče, tostirana domaća ciabatta)</p>
+                                    <h3>Meringue kore s kremom od mascarponea i šumskim voćem</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
-                                    <h3>68,00 kn</h3>
+                                    <h3>35,00 kn</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Delikatesna talijanska plata (za dvije osobe)</h3>
-                                    <p>(Pršut San Daniele, salama Felino, dimljena guščja prsa,..)</p>
+                                    <h3>Tortica od sira s malinama i Crème Fraîche</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
-                                    <h3>95,00 kn</h3>
+                                    <h3>35,00 kn</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Carpaccio</h3>
-                                    <p>(Biftek, Grana Padano, rukola,zapečena domaća ciabatta)</p>
+                                    <h3>Lagana čokoladna torta sa slatkim vrhnjem bez brašna</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
-                                    <h3>82,00 kn</h3>
+                                    <h3>32,00 kn</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Casarecce alla Zingara</h3>
-                                    <p>(Paprike, tikvice, patlidžan, rajčica, chilly papričica, panceta)</p>
+                                    <h3>Millefoglie punjene finom kremom od vanilije i umakom od malinaCasarecce alla Zingara</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
-                                    <h3>79,00 kn</h3>
+                                    <h3>30,00 kn</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Rustica</h3>
-                                    <p>(Šnite bifteka s pečenim krumpirom, rukolom, rajčicom)</p>
+                                    <h3>Tiramisu s domaćim piškotama</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
-                                    <h3>148,00 kn</h3>
+                                    <h3>28,00 kn</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Njoki mari e monti</h3>
-                                    <p>(Njoki, losos, kozice, vrganji, šampinjoni)</p>
+                                    <h3>Meringue torta s pistacijom, pinjolima, orasima, tamnom čokoladom i slatkim vrhnjem</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
-                                    <h3>82,00 kn</h3>
+                                    <h3>30,00 kn</h3>
                                 </div>
                             </div>
                         </div>
@@ -140,41 +134,7 @@
                           <div class="single_menu_item breakfast wow fadeInUp">
                             <div class="d-sm-flex align-items-center">
                                 <div class="dish-description col-md-8">
-                                    <h3>Parmigiana - toplo predjelo</h3>
-                                    <p>(Patlidžan, Parmigiano Reggiano, mozzarella, salsa od rajčice, bosiljak)</p>
-                                </div>
-                                <div class="dish-value col-md-2">
-                                    <h3>56,00 kn</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                          <div class="single_menu_item breakfast wow fadeInUp">
-                            <div class="d-sm-flex align-items-center">
-                                <div class="dish-description col-md-8">
-                                    <h3>Marinirana pileća prsa s domaćim pestom</h3>
-                                </div>
-                                <div class="dish-value col-md-2">
-                                    <h3>75,00 kn</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div class="single_menu_item breakfast wow fadeInUp">
-                            <div class="d-sm-flex align-items-center">
-                                <div class="dish-description col-md-8">
-                                    <h3>Pečeni pileći file u krušnim mrvicama i sezamu s matovilcem i Grana Padanom</h3>
-                                </div>
-                                <div class="dish-value col-md-2">
-                                    <h3>82,00 kn</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div class="single_menu_item breakfast wow fadeInUp">
-                            <div class="d-sm-flex align-items-center">
-                                <div class="dish-description col-md-8">
-                                    <h3>Zapečeni krem špinat s Grana Padanom </h3>
+                                    <h3>Čokoladni fondant sa sladoledom od vanilije</h3>
                                 </div>
                                 <div class="dish-value col-md-2">
                                     <h3>35,00 kn</h3>
@@ -182,29 +142,7 @@
                             </div>
                         </div>
 
-                         <div class="single_menu_item breakfast wow fadeInUp">
-                            <div class="d-sm-flex align-items-center">
-                                <div class="dish-description col-md-8">
-                                    <h3>Pečeni krumpir s ružmarinom </h3>
-                                </div>
-                                <div class="dish-value col-md-2">
-                                    <h3>28,00 kn</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div class="single_menu_item breakfast wow fadeInUp">
-                            <div class="d-sm-flex align-items-center">
-                                <div class="dish-description col-md-8">
-                                    <h3>Ciabatta i Focaccia s maslinovim uljem i ružmarinom, integralni kruh sa sušenim rajčicama i maslinama </h3>
-                                </div>
-                                <div class="dish-value col-md-2">
-                                    <h3>16,00 kn</h3>
-                                </div>
-                            </div>
-                        </div>
-
-
+               
 
                     </div>
 

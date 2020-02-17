@@ -111,8 +111,8 @@
     <Content Include="js\bootstrap\popper.min.js" />
     <Content Include="js\jquery\jquery-2.2.4.min.js" />
     <Content Include="js\plugins.js" />
-    <Content Include="kontakt.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="slastice.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -145,13 +145,6 @@
     <Compile Include="jelovnik.aspx.designer.cs">
       <DependentUpon>jelovnik.aspx</DependentUpon>
     </Compile>
-    <Compile Include="kontakt.aspx.cs">
-      <DependentUpon>kontakt.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="kontakt.aspx.designer.cs">
-      <DependentUpon>kontakt.aspx</DependentUpon>
-    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,6 +153,13 @@
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="slastice.aspx.cs">
+      <DependentUpon>slastice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="slastice.aspx.designer.cs">
+      <DependentUpon>slastice.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

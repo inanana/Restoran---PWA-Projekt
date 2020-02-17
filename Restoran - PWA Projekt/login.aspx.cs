@@ -46,7 +46,8 @@ namespace Restoran___PWA_Projekt
 
             if ((password == myPassword) && !String.IsNullOrEmpty(password))
             {
-                Response.Redirect("~/dnevna-ponuda.aspx");
+                Session.Add("Admin", myUsername);
+                Response.Redirect("~/admin.aspx");
             }
             else
             {
